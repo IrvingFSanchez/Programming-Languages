@@ -52,4 +52,4 @@ python algo-performance.py
 
 ---
 
-🏛 **Lewis University, CPSC-34000-002**  
+🏛 **Lewis University, SP25-CPSC 46000
