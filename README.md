@@ -31,14 +31,6 @@
 
 ### **2. Visualization**
 
-```python
-plt.xscale('log')  # Log-scale for crowd sizes  
-plt.yscale('log')  # Log-scale for time  
-```
-
-![Log-Log Plot Example](https://miro.medium.com/v2/resize:fit:1400/1*5pqQ4QfX5lQkZb9y6vYvBQ.png)  
-*(Example showing O(n²) vs O(n log n) slopes)*  
-
 ### **3. Original Implementations**
 
 - No library functions used  
