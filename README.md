@@ -2,7 +2,7 @@
 
 ---
 
-## 🏆 Sorting Olympics: Algorithm Performance Overview (`algo-performance.py`)
+## 🏆 Sorting Olympics: Project 1 (`algo-performance.py`)
 
 **An empirical study of sorting algorithms through athletic metaphors**  
 *"Where O(n²) meets O(n log n) in the arena of computational efficiency!"*  
