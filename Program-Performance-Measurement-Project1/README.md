@@ -21,7 +21,7 @@ I will try my best to explain how each algorithm works and where each algorithm 
 - **Time Complexity (O(n²))**:
   - *What it means*: For a list of size `n`, it performs ~n²/2 comparisons.
   - *Why*: It must scan all remaining elements (n, then n-1, then n-2...) for each position.
-  - *Example*: Sorting 1,000 items requires ~500,000 operations.
+  - *Example*: Sorting 1,000 items requires ~500,000 operation=s.
   - *Visual*: Like checking every weight in the gym to find the lightest one... repeatedly.
 
 - **Space Complexity (O(1))**:
