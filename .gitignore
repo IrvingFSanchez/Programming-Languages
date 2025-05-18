@@ -1,88 +1,126 @@
-# ------------------------------
+# =============================================
 # Python-specific ignores
-# ------------------------------
+# =============================================
 __pycache__/
 *.py[cod]
+*$py.class
 *.so
-*.egg-info/
-dist/
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
 *.egg
-*.pyc
-*.pyo
-*.pyd
+MANIFEST
 
-# ------------------------------
-# IDE and Editor files
-# ------------------------------
-# VS Code
+# =============================================
+# Virtual environments
+# =============================================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# =============================================
+# IDE and editor files
+# =============================================
 .vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# PyCharm
 .idea/
-*.iml
-*.ipr
-*.iws
-
-# Vim
 *.swp
 *.swo
 *~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
 
-# ------------------------------
-# Environment and local files
-# ------------------------------
-# Virtual environments
-venv/
-.venv/
-env/
+# =============================================
+# Testing and coverage
+# =============================================
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.nox/
+.tox/
 
-# Environment variables
+# =============================================
+# Jupyter and data science
+# =============================================
+.ipynb_checkpoints/
+*.ipynb
+*.csv
+*.h5
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# =============================================
+# Build and package files
+# =============================================
+*.exe
+*.msi
+*.dmg
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+*.7z
+
+# =============================================
+# Environment and config files
+# =============================================
 .env
 .env.local
 .env.development
+.env.test
 .env.production
+.venv
+.envrc
+secrets.ini
+config.ini
+*.cfg
+*.conf
+*.toml
 
-# ------------------------------
-# OS-generated files
-# ------------------------------
-# macOS
-.DS_Store
+# =============================================
+# Documentation
+# =============================================
+docs/_build/
+_site/
+site/
 
-# Windows
-Thumbs.db
-
-# ------------------------------
-# Logs and databases
-# ------------------------------
-*.log
-*.sqlite
+# =============================================
+# Database and cache files
+# =============================================
 *.db
-
-# ------------------------------
-# Testing and coverage
-# ------------------------------
-.pytest_cache/
-.coverage
-htmlcov/
-coverage.xml
-
-# ------------------------------
-# Jupyter Notebooks
-# ------------------------------
-.ipynb_checkpoints/
-
-# ------------------------------
-# Mypy cache
-# ------------------------------
-.mypy_cache/
-.mypy/
-
-# -------------------------------
-# Other ignores
-# -------------------------------
+*.sqlite
+*.sqlite3
+*.dump
+*.rdb
+*.cache
+*.log
 *.pdf
+
+# =============================================
+# OS generated files
+# =============================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
