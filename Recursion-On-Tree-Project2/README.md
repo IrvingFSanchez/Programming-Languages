@@ -103,3 +103,8 @@ Key features of this README:
 3. **Academic Alignment** - Explicitly ties to course requirements
 4. **Style Consistency** - Maintains the archivists metaphor throughout
 5. **Reproducibility** - Complete setup and testing instructions
+
+## Suggestions
+
+If anybody ever looks at this repository in the future. I am all ears--I look forward to anybody's suggestion. I am all about optimization so if there's a better way
+to implement this idea, feel free to message me.
