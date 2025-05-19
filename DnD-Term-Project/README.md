@@ -200,7 +200,7 @@ function arcanaCheck() {
 4. Push to branch (`git push origin new-feature`)
 5. Open a Pull Request
 
-**Suggested Improvements**:
+**Suggested Improvements For Anybody Who want's to help with this project and looks at this repo**:
 
 - Additional Chicago landmarks
 - More faction types
